@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synyster Gates | Netflix</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../CSS/Synyster_Gates.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="../Img/Netflix_Logo.png"></a>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tv Show</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Latest</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="../Img/Synyster_Gates.jpg" class="bg">
+        <div class="content">
+            <img src="../Img/Synyster_Gates_Logo.png" class="movieTitle">
+            <h4>
+                <span>2021</span>
+                <span><i>18+</i></span>
+                <span>1h 40min</span>
+                <span>Documentário/Filme-concerto</span>
+            </h4>
+            <p>Synyster Gates, é o guitarrista solo da banda americana de heavy metal Avenged Sevenfold.
+                Syn, como também é conhecido nasceu em 7 de julho de 1981 em Huntington Beach, California,
+                filho do também guitarrista Sr. Brian Haner e filho adotivo de Suzy Haner. Ele também tem o irmão Brent
+                e a meia-irmã McKenna</p>
+            <div class="buttons">
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+            </div>
+        </div>
+        <a class="play" onclick="toggleVideo()"><img src="../Img/Play.png"> Watch Trailer</a>
+    </div>
+    <div class="trailer">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pYJ2i9vzvQ4" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <img src="../Img/Close.png" class="close" onclick="toggleVideo()">
+    </div>
+
+    <script type="text/javascript" src="../JS/Synyster_Gates.js"></script>
+</body>
+
+</html>
